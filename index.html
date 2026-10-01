@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>สถานที่ท่องเที่ยวในจังหวัดแพร่</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Tahoma", sans-serif;
+    background: #eef7f1;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #087f5b, #20a66a);
+    color: white;
+    text-align: center;
+    padding: 45px 20px;
+}
+
+header h1 {
+    font-size: 45px;
+    margin: 0 0 10px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 35px auto;
+}
+
+.intro {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px #bbb;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.intro h2 {
+    color: #087f5b;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: white;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 5px 18px #bbb;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card h2 {
+    color: #087f5b;
+}
+
+.card p {
+    line-height: 1.8;
+}
+
+.btn {
+    display: inline-block;
+    background: #087f5b;
+    color: white;
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #055b42;
+}
+
+footer {
+    background: #07553e;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🌿 เที่ยวจังหวัดแพร่🌿</h1>
+    <p>หม้อห้อมไม้สัก ถิ่นรักพระลอ ช่อแฮศรีเมือง ลือเลื่องแพะเมืองผี คนแพร่นี้ใจงาม</p>
+</header>
+
+<div class="container">
+
+    <div class="intro">
+        <h2>ยินดีต้อนรับสู่จังหวัดแพร่</h2>
+        <p>
+            จังหวัดแพร่เป็นเมืองรองเก่าแก่ในภาคเหนือที่มีเสน่ห์เงียบสงบ เต็มไปด้วยวัฒนธรรมล้านนา สถาปัตยกรรมไม้สักโบราณ และธรรมชาติที่สวยงาม
+        </p>
+        <p>
+            เว็บไซต์นี้รวบรวมสถานที่ท่องเที่ยวสำคัญ 5 แห่ง
+            เพื่อให้ผู้ที่สนใจได้ศึกษาข้อมูล
+            และวางแผนการเดินทางท่องเที่ยวจังหวัดแพร่
+        </p>
+    </div>
+
+    <div class="cards">
+        
+        <!-- a1 -->
+        <div class="card">
+            <img src="a1.jpg">
+            <div class="card-content">
+                <h2>วัดพระธาตุช่อแฮ</h2>
+                <p>พระอารามหลวงศักดิ์สิทธิ์คู่บ้านคู่เมืองแพร่ บรรจุพระบรมสารีริกธาตุ และเป็นพระธาตุประจำปีเกิดปีขาล (ปีเสือ)</p>
+                <a class="btn" href="phutabberk.html">อ่านรายละเอียด</a>
+            </div>
+        </div>
+
+        <!--a2-->
+        <div class="card">
+            <img src="a2.jpg">
+                <h2>วนอุทยานแพะเมืองผี</h2>
+                <p>ประติมากรรมทางธรณีวิทยาที่เกิดจากน้ำและลมกัดเซาะดินทรายมานานหลายพันปีจนกลายเป็นหน้าผาและเสาดินรูปทรงแปลกตา</p>
+                <a class="btn" href="phasonkaew.html">อ่านรายละเอียด</a>
+            </div>
+        </div>
+
+        <!--a3-->
+        <div class="card">
+            <img src="a3.jpg">
+                <h2>คุ้มเจ้าหลวง</h2>
+                <p>สถาปัตยกรรมไม้สักโบราณสไตล์เรือนขนมปังขิงสมัยรัชกาลที่ 5 อดีตจวนที่ประทับของเจ้าเมืองแพร่องค์สุดท้าย</p>
+                <a class="btn" href="khaokho.html">อ่านรายละเอียด</a>
+            </div>
+        </div>
+
+        <!--a4-->
+        <div class="card">
+            <img src="a4.jpg">
+                <h2>วัดพระธาตุจอมแจ้ง</h2>
+                <p>เป็นวัดเก่าแก่คู่บ้านคู่เมืองแพร่ ตั้งอยู่ที่ตำบลช่อแฮ อำเภอเมืองแพร่ จังหวัดแพร่ สร้างขึ้นตั้งแต่ปี พ.ศ. 1331</p>
+                <a class="btn" href="srithap.html">อ่านรายละเอียด</a>
+            </div>
+        </div>
+
+        <!--a5.jpg-->
+        <div class="card">
+            <img src="a5.jpg">
+                <h2> ศูนย์เรียนรู้การย้อมผ้าหม้อห้อมป้าเหงี่ยม</h2>
+                <p>ตั้งอยู่ที่ตำบลทุ่งโฮ้ง อำเภอเมืองแพร่ จังหวัดแพร่ เป็นแหล่งเรียนรู้ภูมิปัญญาผ้ามัดย้อมและผ้าหม้อห้อมพื้นบ้านชื่อดังของจังหวัด</p>
+                <a class="btn" href="namnao.html">อ่านรายละเอียด</a>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>เว็บไซต์ท่องเที่ยวจังหวัดแพร่</p>
+    <p>จัดทำเพื่อการศึกษา</p>
+</footer>
+
+</body>
+</html>
